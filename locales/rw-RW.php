@@ -23,6 +23,12 @@ return [
             'datetime' => 'EEEE, y MMMM dd HH:mm:ss zzzz',
         ],
     ],
+    'numberPatterns' => [
+        'decimal' => '#,##0.###',
+        'currency' => '¤ #,##0',
+        'percent' => '#,##0%',
+        'scientific' => '#E0',
+    ],
     'amName' => 'AM',
     'pmName' => 'PM',
     'textAttributes' => [

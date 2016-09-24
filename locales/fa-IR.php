@@ -23,6 +23,12 @@ return [
             'datetime' => 'G y MMMM d, EEEE، ساعت H:mm:ss (zzzz)',
         ],
     ],
+    'numberPatterns' => [
+        'decimal' => '#,##0.###',
+        'currency' => '‎¤#,##0',
+        'percent' => '#,##0%',
+        'scientific' => '#E0',
+    ],
     'amName' => 'قبل‌ازظهر',
     'pmName' => 'بعدازظهر',
     'textAttributes' => [

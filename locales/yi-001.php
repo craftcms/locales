@@ -23,6 +23,12 @@ return [
             'datetime' => 'EEEE, dטן MMMM y HH:mm:ss zzzz',
         ],
     ],
+    'numberPatterns' => [
+        'decimal' => '#,##0.###',
+        'currency' => '¤ #,##0.00',
+        'percent' => '#,##0%',
+        'scientific' => '#E0',
+    ],
     'amName' => 'פֿאַרמיטאָג',
     'pmName' => 'נאָכמיטאָג',
     'textAttributes' => [

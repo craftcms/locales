@@ -23,6 +23,12 @@ return [
             'datetime' => 'EEEE၊ dd MMMM yမှာ HH:mm:ss zzzz',
         ],
     ],
+    'numberPatterns' => [
+        'decimal' => '#,##0.###',
+        'currency' => '¤ #,##0',
+        'percent' => '#,##0%',
+        'scientific' => '#E0',
+    ],
     'amName' => 'နံနက်',
     'pmName' => 'ညနေ',
     'textAttributes' => [

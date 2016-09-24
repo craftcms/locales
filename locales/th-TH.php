@@ -23,6 +23,12 @@ return [
             'datetime' => 'EEEEที่ d MMMM G y H นาฬิกา mm นาที ss วินาที zzzz',
         ],
     ],
+    'numberPatterns' => [
+        'decimal' => '#,##0.###',
+        'currency' => '¤#,##0.00',
+        'percent' => '#,##0%',
+        'scientific' => '#E0',
+    ],
     'amName' => 'ก่อนเที่ยง',
     'pmName' => 'หลังเที่ยง',
     'textAttributes' => [

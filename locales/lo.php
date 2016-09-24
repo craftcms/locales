@@ -23,6 +23,12 @@ return [
             'datetime' => 'EEEE ທີ d MMMM G y, H ໂມງ m ນາທີ ss ວິນາທີ zzzz',
         ],
     ],
+    'numberPatterns' => [
+        'decimal' => '#,##0.###',
+        'currency' => '¤#,##0.00;¤-#,##0.00',
+        'percent' => '#,##0%',
+        'scientific' => '#',
+    ],
     'amName' => 'ກ່ອນທ່ຽງ',
     'pmName' => 'ຫຼັງທ່ຽງ',
     'textAttributes' => [

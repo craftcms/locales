@@ -23,6 +23,12 @@ return [
             'datetime' => 'EEEE፣ dd MMMM መዓልቲ y G h:mm:ss a zzzz',
         ],
     ],
+    'numberPatterns' => [
+        'decimal' => '#,##0.###',
+        'currency' => '¤#,##0.00',
+        'percent' => '#,##0%',
+        'scientific' => '#E0',
+    ],
     'amName' => 'ንጉሆ ሰዓተ',
     'pmName' => 'ድሕር ሰዓት',
     'textAttributes' => [
