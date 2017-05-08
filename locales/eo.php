@@ -3,19 +3,19 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'yyyy-MM-dd',
+            'date' => 'yyyy-M-d',
             'time' => 'HH:mm',
-            'datetime' => 'yyyy-MM-dd HH:mm',
+            'datetime' => 'yyyy-M-d HH:mm',
         ],
         'medium' => [
-            'date' => 'y-MMM-dd',
+            'date' => 'y-MMM-d',
             'time' => 'HH:mm:ss',
-            'datetime' => 'y-MMM-dd HH:mm:ss',
+            'datetime' => 'y-MMM-d HH:mm:ss',
         ],
         'long' => [
-            'date' => 'y-MMMM-dd',
+            'date' => 'y-MMMM-d',
             'time' => 'HH:mm:ss z',
-            'datetime' => 'y-MMMM-dd HH:mm:ss z',
+            'datetime' => 'y-MMMM-d HH:mm:ss z',
         ],
         'full' => [
             'date' => 'EEEE, d-\'a\' \'de\' MMMM y',

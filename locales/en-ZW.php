@@ -8,19 +8,19 @@ return [
             'datetime' => 'd/M/y, h:mm a',
         ],
         'medium' => [
-            'date' => 'dd MMM,y',
+            'date' => 'd MMM,y',
             'time' => 'h:mm:ss a',
-            'datetime' => 'dd MMM,y, h:mm:ss a',
+            'datetime' => 'd MMM,y, h:mm:ss a',
         ],
         'long' => [
-            'date' => 'dd MMMM y',
+            'date' => 'd MMMM y',
             'time' => 'h:mm:ss a z',
-            'datetime' => 'dd MMMM y \'at\' h:mm:ss a z',
+            'datetime' => 'd MMMM y \'at\' h:mm:ss a z',
         ],
         'full' => [
-            'date' => 'EEEE, dd MMMM y',
+            'date' => 'EEEE, d MMMM y',
             'time' => 'h:mm:ss a zzzz',
-            'datetime' => 'EEEE, dd MMMM y \'at\' h:mm:ss a zzzz',
+            'datetime' => 'EEEE, d MMMM y \'at\' h:mm:ss a zzzz',
         ],
     ],
     'numberPatterns' => [

@@ -3,14 +3,14 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'd.MM.yyyy \'г\'.',
+            'date' => 'd.M.yyyy \'г\'.',
             'time' => 'H:mm',
-            'datetime' => 'd.MM.yyyy \'г\'., H:mm',
+            'datetime' => 'd.M.yyyy \'г\'., H:mm',
         ],
         'medium' => [
-            'date' => 'd.MM.y \'г\'.',
+            'date' => 'd.M.y \'г\'.',
             'time' => 'H:mm:ss',
-            'datetime' => 'd.MM.y \'г\'., H:mm:ss',
+            'datetime' => 'd.M.y \'г\'., H:mm:ss',
         ],
         'long' => [
             'date' => 'd MMMM y \'г\'.',

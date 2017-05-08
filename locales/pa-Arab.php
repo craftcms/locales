@@ -3,9 +3,9 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'dd/MM/y',
+            'date' => 'd/M/y',
             'time' => 'h:mm a',
-            'datetime' => 'dd/MM/y h:mm a',
+            'datetime' => 'd/M/y h:mm a',
         ],
         'medium' => [
             'date' => 'd MMM y',
@@ -18,9 +18,9 @@ return [
             'datetime' => 'd MMMM y h:mm:ss a z',
         ],
         'full' => [
-            'date' => 'EEEE, dd MMMM y',
+            'date' => 'EEEE, d MMMM y',
             'time' => 'h:mm:ss a zzzz',
-            'datetime' => 'EEEE, dd MMMM y h:mm:ss a zzzz',
+            'datetime' => 'EEEE, d MMMM y h:mm:ss a zzzz',
         ],
     ],
     'numberPatterns' => [

@@ -3,9 +3,9 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'dd/MM/y',
+            'date' => 'd/M/y',
             'time' => 'HH:mm',
-            'datetime' => 'HH:mm, dd/MM/y',
+            'datetime' => 'HH:mm, d/M/y',
         ],
         'medium' => [
             'date' => 'd MMM, y',
@@ -13,14 +13,14 @@ return [
             'datetime' => 'HH:mm:ss, d MMM, y',
         ],
         'long' => [
-            'date' => '\'Ngày\' dd \'tháng\' MM \'năm\' y',
+            'date' => '\'Ngày\' d \'tháng\' M \'năm\' y',
             'time' => 'HH:mm:ss z',
-            'datetime' => 'HH:mm:ss z \'Ngày\' dd \'tháng\' MM \'năm\' y',
+            'datetime' => 'HH:mm:ss z \'Ngày\' d \'tháng\' M \'năm\' y',
         ],
         'full' => [
-            'date' => 'EEEE, \'ngày\' dd MMMM \'năm\' y',
+            'date' => 'EEEE, \'ngày\' d MMMM \'năm\' y',
             'time' => 'HH:mm:ss zzzz',
-            'datetime' => 'HH:mm:ss zzzz EEEE, \'ngày\' dd MMMM \'năm\' y',
+            'datetime' => 'HH:mm:ss zzzz EEEE, \'ngày\' d MMMM \'năm\' y',
         ],
     ],
     'numberPatterns' => [
