@@ -3,24 +3,24 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'd/M/yyyy',
+            'date' => 'dd/MM/yyyy',
             'time' => 'h:mm a',
-            'datetime' => 'd/M/yyyy h:mm a',
+            'datetime' => 'dd/MM/yyyy h:mm a',
         ],
         'medium' => [
-            'date' => 'd-MMM-y',
+            'date' => 'dd-MMM-y',
             'time' => 'h:mm:ss a',
-            'datetime' => 'd-MMM-y h:mm:ss a',
+            'datetime' => 'dd-MMM-y h:mm:ss a',
         ],
         'long' => [
-            'date' => 'd MMMM y',
+            'date' => 'dd MMMM y',
             'time' => 'h:mm:ss a z',
-            'datetime' => 'd MMMM y h:mm:ss a z',
+            'datetime' => 'dd MMMM y h:mm:ss a z',
         ],
         'full' => [
-            'date' => 'EEEE፣ d MMMM መዓልቲ y G',
+            'date' => 'EEEE፣ dd MMMM መዓልቲ y G',
             'time' => 'h:mm:ss a zzzz',
-            'datetime' => 'EEEE፣ d MMMM መዓልቲ y G h:mm:ss a zzzz',
+            'datetime' => 'EEEE፣ dd MMMM መዓልቲ y G h:mm:ss a zzzz',
         ],
     ],
     'numberPatterns' => [

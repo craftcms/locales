@@ -13,14 +13,14 @@ return [
             'datetime' => 'd MMM y HH:mm:ss',
         ],
         'long' => [
-            'date' => 'd \'de\' MMMM \'de\' y',
+            'date' => 'dd \'de\' MMMM \'de\' y',
             'time' => 'HH:mm:ss z',
-            'datetime' => 'd \'de\' MMMM \'de\' y, HH:mm:ss z',
+            'datetime' => 'dd \'de\' MMMM \'de\' y, HH:mm:ss z',
         ],
         'full' => [
-            'date' => 'EEEE d \'de\' MMMM \'de\' y',
+            'date' => 'EEEE dd \'de\' MMMM \'de\' y',
             'time' => 'HH:mm:ss zzzz',
-            'datetime' => 'EEEE d \'de\' MMMM \'de\' y, HH:mm:ss zzzz',
+            'datetime' => 'EEEE dd \'de\' MMMM \'de\' y, HH:mm:ss zzzz',
         ],
     ],
     'numberPatterns' => [

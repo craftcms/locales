@@ -3,24 +3,24 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'y-M-d',
+            'date' => 'y-MM-dd',
             'time' => 'h:mm a',
-            'datetime' => 'y-M-d h:mm a',
+            'datetime' => 'y-MM-dd h:mm a',
         ],
         'medium' => [
-            'date' => 'd MMM y',
+            'date' => 'dd MMM y',
             'time' => 'h:mm:ss a',
-            'datetime' => 'd MMM y h:mm:ss a',
+            'datetime' => 'dd MMM y h:mm:ss a',
         ],
         'long' => [
-            'date' => 'd MMMM y',
+            'date' => 'dd MMMM y',
             'time' => 'h:mm:ss a z',
-            'datetime' => 'd MMMM y h:mm:ss a z',
+            'datetime' => 'dd MMMM y h:mm:ss a z',
         ],
         'full' => [
-            'date' => 'EEEE d MMMM y',
+            'date' => 'EEEE dd MMMM y',
             'time' => 'h:mm:ss a zzzz',
-            'datetime' => 'EEEE d MMMM y h:mm:ss a zzzz',
+            'datetime' => 'EEEE dd MMMM y h:mm:ss a zzzz',
         ],
     ],
     'numberPatterns' => [

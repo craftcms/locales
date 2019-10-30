@@ -8,9 +8,9 @@ return [
             'datetime' => 'd/M/y H:m',
         ],
         'medium' => [
-            'date' => 'd M y',
+            'date' => 'd MM y',
             'time' => 'H:m:s',
-            'datetime' => 'd M y H:m:s',
+            'datetime' => 'd MM y H:m:s',
         ],
         'long' => [
             'date' => 'd MMM y',

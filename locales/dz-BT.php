@@ -3,24 +3,24 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'y-M-d',
+            'date' => 'y-MM-dd',
             'time' => 'ཆུ་ཚོད་ h སྐར་མ་ mm a',
-            'datetime' => 'y-M-d ཆུ་ཚོད་ h སྐར་མ་ mm a',
+            'datetime' => 'y-MM-dd ཆུ་ཚོད་ h སྐར་མ་ mm a',
         ],
         'medium' => [
-            'date' => 'སྤྱི་ལོ་y ཟླ་MMM ཚེས་d',
+            'date' => 'སྤྱི་ལོ་y ཟླ་MMM ཚེས་dd',
             'time' => 'ཆུ་ཚོད་h:mm:ss a',
-            'datetime' => 'སྤྱི་ལོ་y ཟླ་MMM ཚེས་d ཆུ་ཚོད་h:mm:ss a',
+            'datetime' => 'སྤྱི་ལོ་y ཟླ་MMM ཚེས་dd ཆུ་ཚོད་h:mm:ss a',
         ],
         'long' => [
-            'date' => 'སྤྱི་ལོ་y MMMM ཚེས་ d',
+            'date' => 'སྤྱི་ལོ་y MMMM ཚེས་ dd',
             'time' => 'ཆུ་ཚོད་ h སྐར་མ་ mm:ss a z',
-            'datetime' => 'སྤྱི་ལོ་y MMMM ཚེས་ d ཆུ་ཚོད་ h སྐར་མ་ mm:ss a z',
+            'datetime' => 'སྤྱི་ལོ་y MMMM ཚེས་ dd ཆུ་ཚོད་ h སྐར་མ་ mm:ss a z',
         ],
         'full' => [
-            'date' => 'EEEE, སྤྱི་ལོ་y MMMM ཚེས་d',
+            'date' => 'EEEE, སྤྱི་ལོ་y MMMM ཚེས་dd',
             'time' => 'ཆུ་ཚོད་ h སྐར་མ་ mm:ss a zzzz',
-            'datetime' => 'EEEE, སྤྱི་ལོ་y MMMM ཚེས་d ཆུ་ཚོད་ h སྐར་མ་ mm:ss a zzzz',
+            'datetime' => 'EEEE, སྤྱི་ལོ་y MMMM ཚེས་dd ཆུ་ཚོད་ h སྐར་མ་ mm:ss a zzzz',
         ],
     ],
     'numberPatterns' => [

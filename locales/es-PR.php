@@ -3,14 +3,14 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'M/d/yyyy',
+            'date' => 'MM/dd/yyyy',
             'time' => 'h:mm a',
-            'datetime' => 'M/d/yyyy h:mm a',
+            'datetime' => 'MM/dd/yyyy h:mm a',
         ],
         'medium' => [
-            'date' => 'M/d/y',
+            'date' => 'MM/dd/y',
             'time' => 'h:mm:ss a',
-            'datetime' => 'M/d/y h:mm:ss a',
+            'datetime' => 'MM/dd/y h:mm:ss a',
         ],
         'long' => [
             'date' => 'd \'de\' MMMM \'de\' y',

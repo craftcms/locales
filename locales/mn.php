@@ -3,9 +3,9 @@
 return [
     'dateTimeFormats' => [
         'short' => [
-            'date' => 'y.M.d',
+            'date' => 'y.MM.dd',
             'time' => 'HH:mm',
-            'datetime' => 'y.M.d HH:mm',
+            'datetime' => 'y.MM.dd HH:mm',
         ],
         'medium' => [
             'date' => 'y \'оны\' MMM\'ын\' d',
@@ -13,14 +13,14 @@ return [
             'datetime' => 'y \'оны\' MMM\'ын\' d HH:mm:ss',
         ],
         'long' => [
-            'date' => 'y.M.d',
+            'date' => 'y.MM.dd',
             'time' => 'HH:mm:ss (z)',
-            'datetime' => 'y.M.d HH:mm:ss (z)',
+            'datetime' => 'y.MM.dd HH:mm:ss (z)',
         ],
         'full' => [
-            'date' => 'y.M.d, EEEE',
+            'date' => 'y.MM.dd, EEEE',
             'time' => 'HH:mm:ss (zzzz)',
-            'datetime' => 'y.M.d, EEEE HH:mm:ss (zzzz)',
+            'datetime' => 'y.MM.dd, EEEE HH:mm:ss (zzzz)',
         ],
     ],
     'numberPatterns' => [
